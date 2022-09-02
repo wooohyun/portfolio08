@@ -1,6 +1,16 @@
 $(function(){
 $('.main_visual .container').slick({
     autoplay:true,
+    infinite : true, 
+    pauseOnHover : false,
+    arrows : false, 		
+		
+});
+$('.popular_review .container').slick({
+    autoplay:true,
+    slidesToShow : 5,
+    infinite : true, 
+    pauseOnHover : false,
 });
 });
 
